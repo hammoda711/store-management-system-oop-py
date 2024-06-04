@@ -1,4 +1,4 @@
-# Store Management System
+# Store Management Syste
 
 A **Store Management System** designed to efficiently manage inventory, sales, and orders for a store. It leverages object-oriented programming (OOP) concepts and is implemented in native Python without any external libraries.
 
@@ -7,22 +7,26 @@ A **Store Management System** designed to efficiently manage inventory, sales, a
 1. **Item Management**:
   
   - The `Item` class handles inventory items.
-  - Features include adding, finding, and deleting items.
-2. **Order Management**:
+2. **customer system management**:
   
-  - The `Order` class manages customer orders.
+  - the `Admin` class has the privileges to handle customers
+  - Features include adding, finding, and deleting items.
+  
+3. **Order Management**:
+  
+  - The `Order` and `Customer`classes manage customer orders.
   - Track order status and fulfillment.
-3. **User Roles**:
+4. **User Roles**:
   
   - The system supports different user roles:
     - `Admin`: Responsible for overall system management.
     - `Customer`: Places orders and interacts with the system.
-    - `Product`: Represents the items available for sale.
-4. **Sales Reports**:
+    - `Item`: Represents the items available for sale.
+5. **Sales Reports**:
   
   - Generate sales reports to analyze performance.
   - View total sales over specific periods.
-5. **Restock Alerts**:
+6. **Restock Alerts**:
   
   - Receive warnings when stock levels are low.
   - Ensure timely restocking to prevent shortages.
