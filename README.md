@@ -1,4 +1,4 @@
-Store Management System
+#Store Management System
 
 A **Store Management System** designed to efficiently manage inventory, sales, and orders for a store. It leverages object-oriented programming (OOP) concepts and is implemented in native Python without any external libraries.
 
